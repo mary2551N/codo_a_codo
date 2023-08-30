@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+.titulo {
+    color: blueviolet;
+    font-family: cursive;
+    text-align: center;
+
+}
+
+.contenedor {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.caja1 {
+    width: 300px;
+    height: 400px;
+    background-color: orange;
+    text-align: center;
+    border: 30px solid blueviolet;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    grid-column: 1/2;
+    justify-self: center;
+    place-self: center;
+    position: relative;
+
+}
+
+.nombre {
+    width: 296px;
+    height: 60px;
+    border: 2px solid;
+    color: red;
+    background-color: black;
+    text-align: center;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    position: absolute;
+    left: 0px;
+    top: -55px;
+
+
+}
+
+img {
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    margin-top: 50px;
+
+}
+
+.caja2 {
+    width: 95%;
+    background-color: orange;
+    text-align: center;
+    border: 20px solid red;
+    text-align: justify;
+    color: black;
+    grid-row: -1/-2;
+}
